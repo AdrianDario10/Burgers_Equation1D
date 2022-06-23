@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
     plt.show()
 
-    #  Comparison with numerica solution
+    #  Comparison with analytical solution
     import scipy.io
 
     data = scipy.io.loadmat('Burgers_shock.mat')
