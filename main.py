@@ -1,10 +1,10 @@
-import lib.tf_silent
+import tf_silent
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
-from lib.pinn import PINN
-from lib.network import Network
-from lib.optimizer import L_BFGS_B
+from pinn import PINN
+from network import Network
+from optimizer import L_BFGS_B
 import tensorflow as tf
 import matplotlib.colors as colors
 
